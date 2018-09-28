@@ -1,0 +1,228 @@
+
+       
+        html
+        {
+            font-family: 'Tahoma', cursive;
+        }
+
+.container{
+
+    background:white;
+    height: 143vh;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    background:url('../img/balon_uefa.jpg');
+    }
+    
+.content{
+    display: flex;  
+    align-items:right;
+    text-align:center ;
+    justify-content: center;
+    max-width: 1100px;
+    max-height: 1100px;
+    width: 100%;
+    height: 100%;
+    background:white;
+    font-size: 18px;
+    font-size: 18px;
+    color:rgb(13, 49, 148);
+
+}
+
+.tituloEquipo
+{
+    color:rgb(73, 72, 72);
+    text-decoration: underline ;
+}
+.insignia
+{
+    height:30px; 
+    width:25;
+
+}
+
+.tabla{
+    background:rgb(73, 72, 72);
+    font-size: 15px;
+    color:white;
+    border-collapse: separate;
+    border-spacing:  5px;
+}
+
+.tablaEquipo
+{
+    border-collapse: separate;
+    border-spacing:  5px;
+    color:rgb(36, 36, 165);
+
+}
+
+table {
+    border-collapse: separate;
+    border-spacing:  10px 20px;
+  }
+      
+
+ .contentTwo{
+    display: flex;  
+    align-items:center;
+    justify-content: center;
+    max-width: 1100px;
+    max-height: 1100px;
+    width: 500%;
+    height: 100%;
+    font-size: 18px;
+    color:rgb(73, 72, 72);
+ }
+  
+
+.back{
+        border: solid 1px;
+        padding: 0.6em;
+        border-radius: 25px;
+        width: 5em;
+        text-align: center;
+        font-size:15px;
+        position: absolute;top: 530px;
+        position: absolute;right: 1070px; 
+        background-color:rgb(73, 72, 72);
+        color:white;
+
+    } 
+    .back:hover{
+        background-color:orange;
+    }
+
+ 
+ 
+    .intro{
+        display: flex;  
+        align-items:center;
+        justify-content:left;
+        max-width: 900px;
+        max-height: 300px;
+        width: 90%;
+        height: 100%;
+        position: absolute;top: 95px;
+        position: absolute;right: 260px; 
+        font-size: 22px;
+        font-style:inherit;
+        color:rgb(82, 73, 73);
+        } 
+
+    .wiki{
+        border: solid 1px;
+        padding: 0.5em;
+        border-radius: 40px;
+        width: 10em;
+        text-align: center;
+        background-color:white;
+        color:rgb(73, 72, 72);;
+        font-size: 17px;
+        position: absolute;top: 530px;
+        position: absolute;right: 160px; 
+    } 
+    .wiki:hover{
+        background-color:orange;
+    }
+    .vermas{
+        font-size:15px;
+        color:orange;
+          } 
+    .vermas:hover{
+        color:orange;
+    }  
+
+    .video
+    {
+        position: absolute;top: 390px;
+        position: absolute;right: 420px;        
+    } 
+
+    @media screen and (max-width: 600px)
+    {
+
+    th{display:block;
+        position: relative;
+       }
+
+    td{display:block}
+    .tabla {display: block}
+   .insignia{display: block;}
+   h1{display: block}
+
+  .td{
+    font-size: 3px;
+    }
+
+    .tablaEquipo
+    {
+        
+        display: block;
+        padding:0.5em;
+        align-items:center;
+        justify-content:left;
+        max-height: 280px;
+        max-width: 400px;
+        width: 70%;
+        height: 100%;
+        position: absolute;top: 400px;
+        position: absolute;right: 40px; 
+        background:white;
+        border-radius: 20px;
+        font-size: 17px;
+        font-style:inherit;
+        color:rgb(82, 73, 73);
+        overflow:scroll;
+    }
+
+    .back{
+        border: solid 1px;
+        padding: 0.2em;
+        border-radius: 20px;
+        width: 5em;
+        text-align: center;
+        background-color:rgb(82, 73, 73);
+        color:white;
+        position: absolute;top: 480px;
+        position: absolute;right: 140px;} 
+    .video{
+        width: 50%;
+        height: 25%;
+        position: absolute;top: 320px;
+        position: absolute;right: 90px;}
+    .intro{
+        display: block;
+        padding:0.5em;
+        align-items:center;
+        justify-content:left;
+        max-height: 150px;
+        max-width: 400px;
+        width: 70%;
+        height: 100%;
+        position: absolute;top: 100px;
+        position: absolute;right: 40px; 
+        background:rgb(131, 126, 126);
+        border-radius: 20px;
+        font-size: 17px;
+        font-style:inherit;
+        color:white;
+        overflow:scroll;}  
+    .wiki{
+        border: solid 0.5px;
+        padding: 0.3em;
+        border-radius: 20px;
+        height: 30px ;
+        width: 60px;
+        text-align: center;
+        background-color:rgb(73, 72, 72);
+        color:white;
+        font-size: 10px;
+        position: absolute;top:270px;
+        position: absolute;right: 80px;} 
+    
+    }
+
+  
